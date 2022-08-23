@@ -21,3 +21,25 @@ Simple y directo, fácil de leer como un texto bien escrito.
 ¿Cómo exactamente ésta clase realiza cierta tarea?.
 ¿Hay algo específico sobre su ubicación?.
 - máximo 3 parámetros.
+
+Funciones: simplicidad, tamaño reducido, de una sola línea sin causar complicidad,
+menos de 20 líneas, sin else a menos que sea necesario.
+
+Principio DRY:
+
+- evitar tener duplicidad de código, simplificar pruebas, centralizar procesos.
+- refactorizar
+
+- Principio responsabilidad única
+
+S – Single Responsibility Principle (SRP)
+O – Open/Closed Principle (OCP)
+L – Liskov Substitution Principle (LSP)
+I – Interface Segregation Principle (ISP)
+D – Dependency Inversion Principle (DIP)
+
+Propiedades clase:
+
+1- propiedades estáticas,públicas,privadas
+2- lista de métodos: constructores estáticos, normales, privados, al último getters, setters
+3. cuando se ve la necesidad de agregar comentarios, es porque no se explica por si sólo, refactorizar.
