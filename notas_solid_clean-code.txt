@@ -1,0 +1,23 @@
+Esquema deuda técnica:
+
+- Imprudente: no hay tiempo, sólo copia y pega nuevamente.
+- Inadvertido: ¿qué son patrones de diseño?
+- Prudente: Tenemos que entregar rápido, ya refactorizaremos.
+- Prudente e inadvertida: Ahora sabemos cómo lo deberíamos haber hecho.
+
+La deuda técnica se paga con refactorización, la refactorización es un proceso cuyo objetivo es mejorar el código 
+sin alterar su comportamiento para que sea más entendible y tolerante a cambios, debe contar con pruebas 
+automáticas. Sino se cuenta con esto, se cae en "si funciona no lo toques".
+
+Código limpio es aquel que se ha escrito con la intención que otra persona (o tú mismo en el futuro) lo entienda.
+Simple y directo, fácil de leer como un texto bien escrito.
+
+- nombres de variables pronunciables y comunmente en inglés.
+- variables siempre en positivo.
+- nombres de funciones debe ser conciso, no debe describir toda la función, sino una acción en especial.
+
+- Nombres de clases no pueden ser genéricos ni tan explícitas.
+ Para saber si está bien: ¿qué hace exactamente la clase?.
+¿Cómo exactamente ésta clase realiza cierta tarea?.
+¿Hay algo específico sobre su ubicación?.
+- máximo 3 parámetros.
